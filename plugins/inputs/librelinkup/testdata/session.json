@@ -1,0 +1,79 @@
+{
+  "status": 0,
+  "data": {
+    "user": {
+      "id": "639dac0c-7065-4488-a782-ef81905213f3",
+      "firstName": "Eric",
+      "lastName": "Example",
+      "email": "eric.example@example.com",
+      "country": "DE",
+      "uiLanguage": "de-DE",
+      "communicationLanguage": "de-DE",
+      "accountType": "pat",
+      "uom": "1",
+      "dateFormat": "2",
+      "timeFormat": "2",
+      "emailDay": [
+        1
+      ],
+      "system": {
+        "messages": {
+          "firstUsePhoenix": 1621354475,
+          "firstUsePhoenixReportsDataMerged": 1621354475,
+          "lluAnalyticsNewAccount": 1658317179,
+          "lluGettingStartedBanner": 1631719564,
+          "lluNewFeatureModal": 1658317179,
+          "lvWebPostRelease": "3.7.22"
+        }
+      },
+      "details": {},
+      "twoFactor": {
+        "code": "",
+        "fingerprint": "",
+        "phoneNumber": "",
+        "isPrimaryMethod": false,
+        "primaryMethod": "phone",
+        "primaryValue": "+49 123456789",
+        "secondaryMethod": "email",
+        "secondaryValue": "+49 123456789"
+      },
+      "created": 1621354475,
+      "lastLogin": 1662099462,
+      "programs": {},
+      "dateOfBirth": 567043200,
+      "practices": {},
+      "devices": {
+        "a24afe5c-7995-4fbf-a795-c1b462cd6837": {
+          "id": "a24afe5c-7995-4fbf-a795-c1b462cd6837",
+          "nickname": "",
+          "sn": "2EA413B1-6ED6-4377-A86E-27B7C43C9807",
+          "type": 40066,
+          "uploadDate": 1621942377
+        }
+      },
+      "consents": {
+        "realWorldEvidence": {
+          "policyAccept": 1621620631,
+          "touAccept": 0,
+          "history": [
+            {
+              "policyAccept": 1621620631
+            }
+          ]
+        }
+      }
+    },
+    "messages": {
+      "unread": 0
+    },
+    "notifications": {
+      "unresolved": 0
+    },
+    "authTicket": {
+      "token": "abc",
+      "expires": 1677651492,
+      "duration": 15552000000
+    },
+    "invitations": null
+  }
+}
