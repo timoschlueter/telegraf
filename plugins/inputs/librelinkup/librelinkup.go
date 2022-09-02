@@ -71,7 +71,7 @@ func (l *LibreLinkUp) Gather(acc telegraf.Accumulator) error {
 	fields := make(map[string]interface{})
 	fields["mg_dl"] = measurements.Data.Connection.GlucoseMeasurement.ValueInMgPerDl
 	fields["mmol_l"] = float32(measurements.Data.Connection.GlucoseMeasurement.ValueInMgPerDl) * 0.0555
-	fields["timestamp"] = time.Unix(int64(measurements.Data.Connection.Sensor.A), 0).UTC().String()
+	fields["timestamp"] = time.Unix(int64(measurements.Data.Connection.Sensor.A), 0).Unix()
 
 	acc.AddFields("librelinkup", fields, tags)
 	return nil

@@ -60,7 +60,7 @@ func TestGather(t *testing.T) {
 	fields := map[string]interface{}{
 		"mg_dl":     222,
 		"mmol_l":    float32(12.321),
-		"timestamp": "2022-08-29 05:45:13 +0000 UTC",
+		"timestamp": int64(1661751913),
 	}
 
 	acc.AssertContainsTaggedFields(t, "librelinkup", fields, tags)
